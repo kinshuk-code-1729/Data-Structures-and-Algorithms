@@ -1,4 +1,4 @@
-// Program to implement Binary Searching Technique into an Array
+// Program to implement Bubble Sorting Technique into an Array
 #include<stdio.h>
 int main(){
     int a[]={76,35,55,64,27},i,j,temp;
