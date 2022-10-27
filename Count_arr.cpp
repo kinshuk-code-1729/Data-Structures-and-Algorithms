@@ -1,5 +1,5 @@
 // Given an array A, find the count of all elements that appear in it.
-// Applying Brutal Force
+// Applying Brute Force
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
