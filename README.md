@@ -1,5 +1,5 @@
 # This repository contains some basic programs of Data Structures in C/C++ and various algorithms involved in them.
-## * What is a data structure ?
+## 🎆 What is a data structure ?
 - A data structure is a special way of organizing and storing data in a computer so that it can be used efficiently.
 - Array, LinkedList, Stack, Queue, Tree, Graph etc are all basic data structures in C/C++ that stores the data in a special way so that we can access and use the data efficiently.
 ## * Why do we need data structures?
