@@ -7,7 +7,7 @@
 - Specific data structures are essential ingredients of many efficient algorithms, and make possible the management of huge amounts of data, such as large integrated collection of databases.
 - In software design, Data structures are known to be major factors for collection, storing and organizing of data rather than algorithms in some programming languages.
 - Often Data structures are used in the combination of algorithms.
-## * How are data structures used in programming language?
+## ✨ How are data structures used in programming language?
 - The data structure is not any programming language like C, C++, java, etc.
 
 - It is a set of algorithms that we can use in any programming language to structure the data in the memory.
