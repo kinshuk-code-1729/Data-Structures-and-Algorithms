@@ -17,11 +17,15 @@
 ## Classification of Data Structure: 
 ![classification of DS](https://media.geeksforgeeks.org/wp-content/uploads/20220520182504/ClassificationofDataStructure-660x347.jpg)
 
-- Linear data structure: Data structure in which data elements are arranged sequentially or linearly, where each element is attached to its previous and next adjacent elements, is called a linear data structure. 
-Examples of linear data structures are array, stack, queue, linked list, etc.
-- Static data structure: Static data structure has a fixed memory size. It is easier to access the elements in a static data structure. 
-An example of this data structure is an array.
-- Dynamic data structure: In dynamic data structure, the size is not fixed. It can be randomly updated during the runtime which may be considered efficient concerning the memory (space) complexity of the code. 
-Examples of this data structure are queue, stack, etc.
-- Non-linear data structure: Data structures where data elements are not placed sequentially or linearly are called non-linear data structures. In a non-linear data structure, we can’t traverse all the elements in a single run only. 
-Examples of non-linear data structures are trees and graphs.
+- **Linear data structure:** Data structure in which data elements are arranged sequentially or linearly, where each element is attached to its previous and next adjacent elements, is called a linear data structure. 
+
+_Examples of linear data structures are [array](https://www.geeksforgeeks.org/array/), [stack](https://www.geeksforgeeks.org/stack/), [queue](https://www.geeksforgeeks.org/queue/), [linked list](https://www.geeksforgeeks.org/data-structures/linked-list/), etc._
+  - **Static data structure:** Static data structure has a fixed memory size. It is easier to access the elements in a static data structure. 
+
+_An example of this data structure is an [array](https://www.geeksforgeeks.org/array/)._
+  - **Dynamic data structure:** In dynamic data structure, the size is not fixed. It can be randomly updated during the runtime which may be considered efficient concerning the memory (space) complexity of the code. 
+
+_Examples of this data structure are [queue](https://www.geeksforgeeks.org/queue/), [stack](https://www.geeksforgeeks.org/stack/), etc._
+- **Non-linear data structure:** Data structures where data elements are not placed sequentially or linearly are called non-linear data structures. In a non-linear data structure, we can’t traverse all the elements in a single run only. 
+
+_Examples of non-linear data structures are trees and [graphs](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)._
