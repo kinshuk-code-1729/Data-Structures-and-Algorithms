@@ -14,7 +14,7 @@
 - It is a set of algorithms that we can use in any programming language to structure the data in the memory.
 - To structure the data in memory, **_'n'_** number of algorithms were proposed, and all these algorithms are known as Abstract data types.
 
-## Classification of Data Structure: 
+## ⭐ Classification of Data Structure: 
 ![classification of DS](https://media.geeksforgeeks.org/wp-content/uploads/20220520182504/ClassificationofDataStructure-660x347.jpg)
 
 - **Linear data structure:** Data structure in which data elements are arranged sequentially or linearly, where each element is attached to its previous and next adjacent elements, is called a linear data structure. 
