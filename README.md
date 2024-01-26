@@ -1,4 +1,7 @@
 # This repository contains various programs of _Data Structures and Algorithms_ coded in _C, C++, Python_ and _Java_.
+
+![DSA Image](https://www.thinknexttraining.com/images/data-structues-and-algorithms-mob.jpg)
+
 ## 🎆 What is a data structure ?
 - A data structure is a special way of organizing and storing data in a computer so that it can be used efficiently.
 - **Array, LinkedList, Stack, Queue, Tree, Graph** etc are all basic data structures that store the data in a special way so that we can access and use the data stored in them efficiently.
