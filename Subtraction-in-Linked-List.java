@@ -12,8 +12,6 @@ class Node {
     }
 }
 
-
-
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -78,7 +76,23 @@ public class Main {
 }
 
 // } Driver Code Ends
+/*
 
+Definition for singly Link List Node
+class Node
+{
+    int data;
+    Node next;
+
+    Node(int x){
+        data = x;
+        next = null;
+    }
+}
+
+You can also use the following for printing the link list.
+Node.printList(Node node);
+*/
 
 //User function Template for Java
 class Solution {
