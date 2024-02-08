@@ -1,58 +1,49 @@
-/* A Binary Tree node
-class Node
-{
-    int data;
-    Node left, right;
+/*
+static final int ALPHABET_SIZE = 26;
 
-    Node(int item)
-    {
-        data = item;
-        left = right = null;
+    // trie node
+    static class TrieNode {
+        TrieNode[] children = new TrieNode[ALPHABET_SIZE];
+
+        // isEndOfWord is true if the node represents
+        // end of a word
+        boolean isEndOfWord;
+
+        TrieNode() {
+            isEndOfWord = false;
+            for (int i = 0; i < ALPHABET_SIZE; i++) children[i] = null;
+        }
+    };
+*/
+//Function to insert string into TRIE.
+static void insert(TrieNode root, String key) 
+{
+    // Your code here
+    TrieNode t = root;
+    for(int i=0;i<key.length();i++){
+        if(t.children[key.charAt(i) - 'a'] == null){
+            t.children[key.charAt(i) - 'a'] = new TrieNode();
+        }
+        t = t.children[key.charAt(i) - 'a'];
+        if(i == key.length()-1){
+            t.isEndOfWord = true;
+        }
     }
 }
-*/
 
-class Solution
+//Function to use TRIE data structure and search the given string.
+static boolean search(TrieNode root, String key)
 {
-    boolean check(Node root)
-    {
-	// Your code here	
-	if(root == null){
-	    return true;
-	}
-	
-	Queue<Node> Q = new LinkedList<>();
-	Q.add(root);
-	
-	int lv = 0;
-	boolean leaf1 = true;
-	int lvLeaf = 0;
-	
-	while(!Q.isEmpty()){
-	    int len = Q.size();
-	    for(int i=0;i< len;i++){
-	        Node cur = Q.poll();
-	        
-	        if(cur.left == null && cur.right == null){
-	            if(leaf1){
-	                lvLeaf = lv;
-	                leaf1 = false;
-	            }
-	            
-	            else if(lv != lvLeaf)
-	            return false;
-	        }
-	        
-	        if(cur.left != null){
-	            Q.add(cur.left);
-	        }
-	        
-	        if(cur.right != null){
-	            Q.add(cur.right);
-	        }
-	    }
-	    lv++;
-	}
-	return true;
-  }
+    // Your code here
+    TrieNode t = root;
+    for(int i=0;i<key.length();i++){
+        if(t.children[key.charAt(i) - 'a'] == null){
+            return false;
+        }
+        t = t.children[key.charAt(i) - 'a'];
+        if(i == key.length()-1 && t.isEndOfWord){
+         return true;   
+        }
+    }
+    return false;
 }
