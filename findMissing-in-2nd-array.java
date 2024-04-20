@@ -1,4 +1,9 @@
-ArrayList<Integer> al = new ArrayList<>();
+//User function Template for Java
+class Solution
+{
+    ArrayList<Integer> findMissing(int a[], int b[], int n, int m)
+    {
+        ArrayList<Integer> al = new ArrayList<>();
          Set<Integer> set = new HashSet<>();
          for(int x : b){
              set.add(x);
@@ -8,3 +13,5 @@ ArrayList<Integer> al = new ArrayList<>();
              al.add(x);
          }
          return al;
+    }
+}
